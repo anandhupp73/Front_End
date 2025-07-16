@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+}
+
+#h1id {
+    background-color: darkgreen;
+}
+
+.common,
+h1,
+ol {
+    background-color: brown;
+}

@@ -1,0 +1,21 @@
+.sample{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(40, 175, 28);
+    margin-top: 10%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin:10% 10px 20px 20px; */
+    /* margin: auto; */
+}
+.sub{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(48, 110, 224);
+     background-image:  url('img21.jpg');
+    background-size:cover;
+    /* background-position: ; */
+    background-attachment: fixed;
+
+}
