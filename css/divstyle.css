@@ -8,6 +8,7 @@
     margin-right: auto;
     /* margin:10% 10px 20px 20px; */
     /* margin: auto; */
+    padding: 20px 30px 10px 40px;
 }
 .sub{
     width: 80%;
@@ -17,5 +18,5 @@
     background-size:cover;
     /* background-position: ; */
     background-attachment: fixed;
-
+    
 }
