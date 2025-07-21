@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            border-radius: 600px;
+            animation-name: move;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+            animation-direction:alternate ;
+            animation-iteration-count: 3;
+        }
+        /* .main:hover{
+            background-color: rgb(61, 20, 209);
+            transform:translate(600px);
+            transition-duration: 3s;
+            transition-timing-function:ease-out;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+        } */
+        @keyframes move{
+            from{
+                transform: translate(0px);
+            }
+            to{
+                transform: translatey(600px);
+                background-color: aquamarine;
+            }
+        }
+        /* .main2{
+            background-color: crimson;
+            height: 100px;
+            width: 100px;
+            animation-name: move;
+            animation-delay: 2s;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+        } */
+         hr{
+            margin-top: 600px;
+         }
+         img{
+            width:00px;
+            border-radius: 50%;
+         }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="img3.jpg" alt="">
+    </div>
+    <!-- <div class="main2"></div> -->
+     <hr>
+</body>
+</html>

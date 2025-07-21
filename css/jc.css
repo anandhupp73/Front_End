@@ -1,0 +1,43 @@
+*{
+    margin: 10px;
+}
+.main{
+    width: 80%;
+    height: 600px;
+    /* margin: auto; */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+    /* margin: 10%; */
+    background-color: yellow;
+    justify-content:flex-end;
+    align-items:center;
+    align-content:flex-start;
+
+}
+.main div{
+    width: 100px;
+    /* height: 300px; */
+}
+.card{
+    height: 100px;
+    
+
+}
+.card1{
+    background-color: aqua;
+    flex: 4;
+}
+.card2{
+    background-color: rgb(5, 61, 61);
+    flex: 3;
+}
+.card3{
+    background-color: rgb(56, 133, 41);
+    flex: 2;
+}
+.card4{
+    background-color: brown;
+    flex: 1;
+}
