@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 80%;
+            background-color: antiquewhite;
+            display: grid;
+            grid-template-areas: 'web web nav'
+                                'msg msg img'
+                                'qt qt img'
+                                'bt1 bt2 img';
+                                
+            grid-template-rows: 80px 300px 100px 100px;
+        }
+
+        .web {
+            background-color: cadetblue;
+            grid-area: web;
+        }
+
+        .nav {
+            background-color: antiquewhite;
+            grid-area: nav;
+        }
+
+        .msg {
+            background-color: rgb(190, 212, 212);
+            grid-area: msg;
+        }
+
+        .img {
+            background-color: blue;
+            grid-area: img;
+        }
+        .bt1{
+            background-color: brown;
+            grid-area: bt1;
+        }
+        .bt2{
+            background-color:blueviolet ;
+            grid-area: bt2;
+        }
+
+        .innerweb h1 {
+            text-align: center;
+            color: #240f03;
+        }
+        .innernav{
+           text-align: center;
+           padding-top: 20px;
+        }
+        .innermsg p{
+            justify-content: center;
+        }
+        .innerqt{
+            text-align: center;
+        }
+        .innerbt1 p{
+            padding-top: 20px;
+            text-align: center;
+        }
+        .innerbt2 p{
+            padding-top: 20px;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        /* p{
+            padding: 10px;
+            width: 500px;
+            text-align: justify;
+        } */
+         img{
+            width: 300px;
+            height: 500px;
+         }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="web">
+            <div class="innerweb">
+                <h1>WEB Diary</h1>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="innernav">
+                <a href="">Home</a>
+                <a href="">about</a>
+                <a href="">contact</a>
+            </div>
+        </div>
+        <div class="msg">
+            <div class="innermsg">
+                    <h1>css grid example</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci reiciendis architecto autem modi, expedita nostrum nulla placeat nisi earum doloremque magnam aperiam dicta animi nemo natus voluptatem debitis, aliquid numquam?</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="img1.jpg" alt="">
+        </div>
+        <div class="qt">
+            <div class="innerqt">
+                <h2>"Lorem ipsum dolor sit amet"</h2>
+            </div>
+        </div>
+        <div class="bt1">
+            <div class="innerbt1">
+                <p>Read more</p>
+            </div>
+        </div>
+        <div class="bt2">
+            <div class="innerbt2">
+                <p>view all</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
