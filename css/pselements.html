@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::before {
+            content: " before fill - ";
+        }
+
+        .p1::after {
+            content: " - after fill";
+        }
+
+        input::placeholder {
+            color: blue;
+            opacity: 1;
+        }
+
+        .p2::first-letter {
+            color: forestgreen;
+            font-weight: bold;
+        }
+
+        .pfl::first-line {
+            font-size: 20px;
+            text-decoration: underline;
+            background-color: lightgreen;
+        }
+
+        ::marker {
+            font-size: 20px;
+            color: rgb(94, 35, 233);
+        }
+        .psel::selection{
+            color: rgb(17, 0, 255);
+            background-color: rgb(25, 226, 149);}
+    </style>
+</head>
+
+<body>
+    <h3>welcome</h3>
+    <p class="p1">Hello</p>
+    <p class="p2">Anandhu</p>
+    <input type="text" placeholder="enter your name">
+    <p class="pfl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium magni placeat nobis
+        <br>explicabo fugit, labore alias architecto optio, autem pariatur <br>necessitatibus quo rerum provident,
+        praesentium consequuntur molestiae neque expedita eius.
+    </p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <p class="psel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos, reprehenderit accusamus tenetur suscipit <br> debitis doloribus, neque sit enim, quas vitae aperiam facilis aut <br> officia deleniti. Deserunt possimus qui nihil!</p>
+</body>
+
+</html>
