@@ -1,0 +1,38 @@
+/* .main{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+} */
+/* @media (max-width:500px) {
+    .main{
+        background-color: blue;
+    }
+}
+@media (min-width:700px) {
+    .main{
+        background-color: red;
+    }
+} */
+.sub{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.main{
+    display: flex;
+    gap: 5px;
+}
+.part1, .part2{
+    display: flex;
+    gap: 5px;
+}
+@media (max-width:300px) {
+    .part1, .part2{
+        flex-direction: column;
+    }
+}
+@media (max-width:426px) {
+    .main{
+        flex-direction: column;
+    }
+ }
